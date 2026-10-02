@@ -1,65 +1,95 @@
-# docker-python-scripting
-Python scripting project containerized with Docker to practice Python automation and basic containerization concepts.
 # Docker Python Scripting
 
-## Project Date
+## 📌 Project Overview
 
-2025
+This project demonstrates how to run **Python scripts inside a Docker container**.
 
-## Project Type
+The project combines Python scripting with Docker to provide a consistent environment for executing scripts and practicing basic automation concepts.
 
-Practice Project / Learning Project
+## 🏗️ Architecture
 
-## Project Overview
-
-This project demonstrates how Python scripts can be packaged and
-executed inside a Docker container.
-
-The project combines Python scripting with Docker to understand
-basic automation and containerization concepts.
-
-## Technologies Used
-
-- Python
-- Python Scripting
-- Docker
-- Dockerfile
-- Linux
-
-## Project Objectives
-
-- Create Python scripts
-- Create a Dockerfile
-- Build a Docker image
-- Run Python scripts inside a Docker container
-- Understand Docker containers
-- Practice basic automation using Python
-
-## Basic Workflow
-
+```text id="c4m8zr"
 Python Script
      |
      v
-Dockerfile
+ Dockerfile
      |
      v
-Docker Image
+ Docker Image
      |
      v
 Docker Container
      |
      v
 Python Script Execution
+```
 
-## What I Learned
+## 🛠️ Technologies Used
+
+- Python
+- Docker
+- Dockerfile
+- Linux
+- Shell Scripting
+- Git & GitHub
+
+## ⚙️ How It Works
+
+1. Create a Python script.
+2. Create a Dockerfile.
+3. Define the Python environment.
+4. Build a Docker image.
+5. Start a container from the image.
+6. Execute the Python script inside the container.
+7. View the script output.
+
+## 🐳 Example Docker Commands
+
+Build the image:
+
+```bash id="8r0v8w"
+docker build -t python-scripting .
+```
+
+Run the container:
+
+```bash id="n7j1mq"
+docker run python-scripting
+```
+
+View running containers:
+
+```bash id="6b8r3q"
+docker ps
+```
+
+## 📂 Example Project Structure
+
+```text id="p2k6vz"
+docker-python-scripting/
+│
+├── Dockerfile
+├── script.py
+└── README.md
+```
+
+## 🎯 What I Learned
 
 - Python scripting
-- Docker basics
+- Docker fundamentals
 - Dockerfile creation
 - Building Docker images
-- Running Docker containers
-- Basic automation
+- Running containers
+- Executing scripts inside containers
+- Basic automation concepts
+- Linux and DevOps practices
 
-## Project Type
+## 📂 Project Type
 
-Practice Project / Learning Project
+**Python / Docker / Automation / DevOps**
+
+## 👨‍💻 Author
+
+**Shailesh Bidave**
+
+GitHub: [@bidaveeshailesh](https://github.com/bidaveeshailesh)
